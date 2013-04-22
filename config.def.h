@@ -36,7 +36,7 @@ static unsigned int blinktimeout = 800;
 /* TERM value */
 static char termname[] = "st-256color";
 
-static unsigned int tabspaces = 8;
+static unsigned int tabspaces = 2;
 
 
 /* Terminal colors (16 first used in escape sequence) */
