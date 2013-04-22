@@ -42,29 +42,30 @@ static unsigned int tabspaces = 2;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
+	"#1e2320",
+	"#cc9393",
+	"#7f9f7f",
+	"#dfaf8f",
+	"#8cd0d3",
+	"#dc8cc3",
+	"#83d0d3",
+	"#dcdccc",
 
 	/* 8 bright colors */
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
+	"#c3bf9f",
+	"#dca3a3",
+	"#8fb28f",
+	"#f0dfaf",
+	"#94bff3",
+	"#ec93d3",
+	"#93e0e3",
+	"#ffffff",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#cccccc",
+	"#3f3f3f",
 };
 
 
@@ -73,7 +74,7 @@ static const char *colorname[] = {
  * foreground, background, cursor
  */
 static unsigned int defaultfg = 7;
-static unsigned int defaultbg = 0;
+static unsigned int defaultbg = 257;
 static unsigned int defaultcs = 256;
 
 /*
