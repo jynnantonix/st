@@ -7,7 +7,7 @@
  */
 static char font[] = "-*-terminus-medium-r-*-*-10-*-*-*-*-*-*-*";
 static int borderpx = 2;
-static char shell[] = "/bin/sh";
+static char shell[] = "/bin/zsh";
 
 /*
  * word delimiter string
