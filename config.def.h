@@ -93,7 +93,7 @@ static Mousekey mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY Mod1Mask
+#define MODKEY ControlMask
 
 static Shortcut shortcuts[] = {
 	/* modifier		key		function	argument */
@@ -350,4 +350,3 @@ static Key key[] = {
 static uint selmasks[] = {
 	[SEL_RECTANGULAR] = Mod1Mask,
 };
-
