@@ -1,5 +1,5 @@
 st - simple terminal
---------------------
+====================
 st is a simple virtual terminal emulator for X which sucks less.
 
 
@@ -31,4 +31,3 @@ See the man page for additional details.
 Credits
 -------
 Based on Aurélien APTEL <aurelien dot aptel at gmail dot com> bt source code.
-
